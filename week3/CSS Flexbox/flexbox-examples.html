@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox-Example</title>
+</head>
+<style>
+/* CSS internal */
+ .container {
+        display: flex;
+        /* flex container needs measurments */
+        width:400px; 
+        height:300px;
+        /* use flex wrap because we want the items on another line. */
+        flex-wrap:wrap; 
+        align-content: space-between;
+        justify-content:space-between;
+
+      }
+      .boxes {
+        border: 0.1px solid;
+        width: 99px;
+        height: 99px;
+        text-align: center;
+        font-size: 30px;
+      }
+      #box1 {
+        background-color: rgb(69, 177, 69);
+      }
+      #box2 {
+        background-color: rgb(211, 211, 52);
+      }
+      #box3 {
+        background-color: rgb(212, 48, 75);
+      }
+      #box4 {
+        background-color: rgb(75, 75, 151);
+      }
+      #box5 {
+        background-color: rgb(226, 51, 51);
+      }
+      #box6 {
+        background-color: rgb(209, 150, 40);
+      }
+      
+      /* #box7 {
+        background-color: beige;
+      }
+      #box8 {
+        background-color: lightgrey;
+      } */ 
+</style>
+<body>
+<div class="container">
+<div class="boxes" id="box1">1</div>
+<div class="boxes" id="box2">2</div>
+<div class="boxes" id="box3">3</div>
+<div class="boxes" id="box4">4</div>
+<div class="boxes" id="box5">5</div>
+<div class="boxes" id="box6">6</div>
+<!-- <div class=""boxes" id="box7"></div> -->
+<!-- <div class=""boxes" id="box8"></div> -->
+</div>
+<!-- control / to make a comment, the div container contains 8 box parent (body) child(div class) boxes(grandchildrens) -->
+    
+</body>
+</html>
