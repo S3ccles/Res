@@ -15,7 +15,7 @@ header h1{
   font-style: italic;
 }
 body{
-  background: linear-gradient(to left, black, rgb(162, 130, 238));;
+  background: linear-gradient(to left, bisque,violet);
 }
 
 
@@ -25,7 +25,7 @@ body{
     justify-content: space-between;
     border-collapse:collapse;
     border-radius:5px;
-    box-shadow:#d0d0d0 0px 1px 2px 3px; 
+    box-shadow:#ae46b8a1 0px 1px 2px 3px; 
 }
 
 .navbar li{
@@ -57,7 +57,7 @@ li a:hover:not(.active) {
 
 
 .active {
-  background-color: #04AA6D;
+  background-color: #8304aa93;
 }
 
 
@@ -67,20 +67,16 @@ a {
         padding:14px 16px;
         text-align: center;
         text-decoration: double;
-        background-color: rgb(184, 184, 206);
+        background-color: bisque;
 }
 
 
 body{
-        background: linear-gradient(to left, black, violet); 
+        background: linear-gradient(to left, bisque, violet); 
 
 
 }
 
-.section {
-  background-color:yellow ;
-
-}
 
 .login {
   display: flex;
