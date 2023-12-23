@@ -1,64 +1,96 @@
 body {
   /* another background version repeating-conic-gradient(  black 10%,  violet 15%,  violet 33%)*/
-  margin: 0;
+  margin-top:30px;
   padding: 0;
   align-items: center;
-  background: linear-gradient(to left, black, violet);
+  background: linear-gradient(to left, bisque, violet);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 Img {
   display: grid;
-  position: relative;
-  top: 100px;
+   top: 100px;
   border-radius: 50%;
   margin: auto;
   width: 100px;
   height: 100px;
-  box-shadow: 2px 2px 0px black, 1px 1px 0px blue;
+  box-shadow: 2px 2px 0px black, 1px 1px 0px rgb(131, 131, 156);
 
 }
 
 h1 {
+  font-size:4rem ;
   text-align: center;
   position: relative;
-  top: 75px;
-  color: #0e0f0f;
+   color: #0e0f0f;
   border-radius: 17px;
   padding-left: 5px;
 }
 
+h2 {
+  font-size:3rem;
+  font-weight: 200 ;
+}
 
-.navbar {
+h3 {
+  font-size:2rem;
+  font-weight:200;
+}
+
+p {
+  font-size: 1rem;
+  font-weight:100;
+  line-height: 1.10;
+}
+
+.navBar {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     border-collapse:collapse;
     border-radius:5px;
-    box-shadow:#d0d0d0 0px 1px 2px 3px; 
+    padding-left:40px;
+    padding-right:40px;
+    box-shadow:#d189cd 6px 7px 8px 10px; 
+    font-size: 25px;
+    color: white; 
 }
 
-.navbar li{
+.navBar li {
         display:block;
         box-sizing:border-box;
-      
-        float: left;
-       
+        border:violet 3px outset;                      
         }
     
-.navbar ul {
-        list-style-type: none;
-        display: inline;
-        margin:0;
-        padding:0;
-        overflow:hidden;
-        background-color:black;
-}
 
- li:last-child {
-  border-right: none;
-}
+
 
 li a:hover:not(.active) {
-  background-color: #697092;
+  background-color: #e7e3a7;
+}
+
+.active {
+  background-color: purple;
+}
+
+.cyvMenu {
+  display: grid;
+  justify-items: center;
+  padding-top:200px;
+  padding-bottom:30px;
+  background: url(/Images/Empanada.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.cyvMenu2{
+    display: flex;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    border-width: 120px;
+    border: violet 2px groove;
 }
