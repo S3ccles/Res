@@ -38,7 +38,7 @@ h3 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 20px;
   font-weight:100;
   line-height: 1.10;
 }
@@ -63,7 +63,22 @@ p {
         }
     
 
+li a:link {
+  text-decoration: none;
+}
 
+li a:visited {
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+  color:rgba(rgba(162, 0, 255,0), )
+}
+
+a:active {
+  text-decoration: underline;
+}
 li a:hover:not(.active) {
   background-color: #e7e3a7;
 }
