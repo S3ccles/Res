@@ -127,14 +127,16 @@ body{
 }
 
 
-div.login {
-  display: flex;
-  position: relative;
-  
+div.Login {
+  display: grid;
+  justify-content:end;
+  align-items:center;
+  font-size:large;
+  border:3px double blue;
 
 }
 
-div.login-user {
+div.Login-user {
    height: 1em;
    margin-right: 0.5em;
    vertical-align: bottom;
