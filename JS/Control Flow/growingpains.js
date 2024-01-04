@@ -6,7 +6,7 @@ const intialplantcount= 20;
 const weeklyGrowthRate= 2;
 
 // Calculate plant growth
-function predictPlantGrowthAndAction(weeks:any):any 
+function plantGrowth (weeks:any):any ;
 let currentPlantCount = intialplantcount;
 for (let i = 0; i < weeks; i++) {currentPlantCount=currentPlantCount * weeklyGrowthRate;
 const maximumPlantCapacity = Math.floor(area / minimumPlantSpace);

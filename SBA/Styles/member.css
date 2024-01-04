@@ -30,7 +30,7 @@ li a:hover:not(.active) {
   background-color: purple;
 }
 
-/* test */
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -49,7 +49,6 @@ li a:hover:not(.active) {
 
 }
 
-
 .dropdown:hover .dropdown-content {
   display: block;
   position: relative;
@@ -60,17 +59,6 @@ li a:hover:not(.active) {
 }
 
 
-/* a {
-
-        display:block;
-        padding:14px 16px;
-        text-align: center;
-        text-decoration: double;
-        background-color: rgb(184, 184, 206);
-} */
-
-
-
 body {
   margin: 0;
   padding: 0;
@@ -78,6 +66,7 @@ body {
   background: linear-gradient(to left, bisque, violet);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
 .login {
   width: 300px;
   text-align: center;
@@ -94,10 +83,11 @@ body {
     2px 2px 0px #999, 
     1px 1px 0px #999;
 }
+
 Img {
   display: grid;
   position: relative;
-  top: 100px;
+  top:10px;
   border-radius: 50%;
   margin: auto;
   width: 100px;
@@ -105,11 +95,21 @@ Img {
   box-shadow: 2px 2px 0px black, 1px 1px 0px blue;
 
 }
-h1 {
+div.header{
+  font-size:4rem;
   text-align: center;
   position: relative;
-  top: 75px;
+  top:10px;
   color: #0e0f0f;
+  border-radius: 17px;
+  padding-left: 5px;
+}
+
+h1 {
+  font-size:4rem ;
+  text-align: center;
+  position: relative;
+   color: #0e0f0f;
   border-radius: 17px;
   padding-left: 5px;
 }
@@ -118,6 +118,24 @@ label {
   font-size: 17px;
   justify-content: center;
 }
+
+input {
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+form #login{
+  display: grid;
+    align-content: space-between;
+    justify-content: center;
+}
+
+
 #ULog {
   text-align: center;
   font-weight: bold;
@@ -157,6 +175,11 @@ span {
   color: dark skyblue;
   font-size: 17px;
   }
+
 a {
   background: border-box;
+}
+
+table, th, td {
+   border: 1px solid;
 }
