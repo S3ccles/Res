@@ -19,16 +19,19 @@ body {
 }
 
 .introCYV {
+  display:flex;
   padding-top:300px;
   padding-bottom:30px;
-  background: url(/Images/AfroLatin.gif) ;
+  background: url(/AfroLatin.gif) ;
   background-repeat: repeat;
   opacity: 0.6;
 }
-#afroLatin {
+
+.videoCYV{
   display:flex;
-  width: 250px;
-  height: 200px;
+  justify-content:center; 
+  border:12px solid pink;
+ 
 }
 
 h1 {
@@ -43,11 +46,13 @@ h1 {
 h2 {
   font-size:3rem;
   font-weight: 200 ;
+  padding: 2px 334px
 }
 
 h3 {
   font-size:2rem;
   font-weight:200;
+  padding: 2px 500px;
 }
 
 p {
@@ -70,10 +75,10 @@ p {
 }
 
 .navBar li {
-        display:block;
-        box-sizing:border-box;
-        border:violet 3px outset;     
-        border-radius:7px;                 
+  display:block;
+  box-sizing:border-box;
+  border:violet 3px outset;     
+  border-radius:7px;                 
         }
     
  
@@ -122,25 +127,19 @@ body{
 }
 
 
-.login {
+div.login {
   display: flex;
   position: relative;
+  
 
 }
 
-.login-user {
+div.login-user {
    height: 1em;
    margin-right: 0.5em;
    vertical-align: bottom;
 }
 
-#intro{
-align-items: center;
-background-color: beige;
-margin-top: 10px;
-margin-bottom: 10px;
-
-}
 
 
 
